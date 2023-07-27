@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-sec {
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo .logo {
+  width: 90%;
+}
+.header-logo .logo img {
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  width: 55%;
+}
+.nav-links a {
+  margin-right: 8px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.nav-links i {
+  font-size: 12px;
+}
+.myavada {
+  border-radius: 4px;
+  padding: 9px 23px;
+  border: 1px solid rgb(101 94 94);
+}
+.header-bot {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+}
+.header-bot-left {
+  width: 50%;
+}
+.header-bot-right {
+  width: 50%;
+}
+.content-bot {
+  margin-top: 2rem;
+  width: 70%;
+  border-top: 1px solid #ada7a7;
+  display: flex;
+}
+.header-img img {
+  width: 100%;
+}
+.header-content {
+  margin-top: 2rem;
+}
+.header-content h1 {
+  font-size: 3.4rem;
+}
+.header-content p {
+  margin: 1rem 0;
+  width: 75%;
+  font-size: 0.9rem;
+}
+.header-content a {
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  padding: 13px 34px;
+  border: 1px solid rgb(101 94 94);
+}
+.header-content a i {
+  font-size: 19px;
+}
+.content-bot-left p,
+.content-bot-right p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.content-bot-left {
+  width: 50%;
+}
+.content-bot-right {
+  width: 50%;
+}
+.content-bot-left p:last-child,
+.content-bot-right p:last-child {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .nav-menu,
+  .myavada {
+    display: none;
+  }
+  .header-bot-left,
+  .header-bot-right {
+    width: 100%;
+    text-align: center;
+  }
+  .header-content h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .header-logo .logo img {
+    margin-left: 31px;
+    width: 100%;
+  }
+  .header-content p {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  .header-content a {
+    text-align: center;
+    margin-left: 1rem;
+    display: inline-block;
+  }
+  .content-bot {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}

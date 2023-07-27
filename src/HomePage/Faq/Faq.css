@@ -1,0 +1,25 @@
+.faq-sec {
+  margin-top: 20px;
+}
+
+.faq-cond {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.faq-head h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.faq-head h4 {
+  padding-bottom: 1rem;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.plus {
+  float: right;
+}

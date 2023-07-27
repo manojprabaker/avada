@@ -1,0 +1,54 @@
+.footer-sec {
+  margin-top: 5rem;
+  background-color: #000;
+}
+.footer-col {
+  width: 25%;
+  color: #fff;
+}
+.footer-row {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+input.email {
+  font-size: 17px;
+  background: #fff;
+  padding: 0.3rem 1rem;
+  width: 70%;
+  outline: none;
+  border: 0;
+}
+span.email-data {
+  margin-top: 12px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  padding: 5px 10px;
+  background: #fff;
+}
+a.submit-btn {
+  margin-left: 0;
+  padding: 4px 14px;
+  background: #000;
+  border-radius: 3px;
+}
+.footer-col p {
+  margin: 1.3rem 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-col {
+    width: 100%;
+    padding-left: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  div.footer-col-last {
+    width: 100%;
+  }
+  .footer-col {
+    width: 33.3%;
+  }
+}

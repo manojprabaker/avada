@@ -1,0 +1,64 @@
+.design-sec {
+  margin: 3rem 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.design-title {
+  text-align: center;
+}
+.design-title h1 {
+  font-size: 2rem;
+}
+.design-content {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+h2#content-1 {
+  margin-top: 3rem;
+}
+.design-list {
+  text-align: center;
+  padding: 15px;
+  width: 33.3%;
+}
+.design-list img {
+  width: 100%;
+}
+.design-list h2 {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.design-list p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.discover{
+    text-align: center;
+}
+.discover a {
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  padding: 13px 34px;
+  border: 1px solid rgb(101 94 94);
+}
+.discover a i {
+  font-size: 19px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .design-list {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .design-list {
+    width: 50%;
+  }
+}

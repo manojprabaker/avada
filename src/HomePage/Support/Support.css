@@ -1,0 +1,45 @@
+.support-sec {
+  margin: 3rem 0;
+}
+.support-title {
+  text-align: center;
+}
+.support-title h1 {
+  font-size: 2rem;
+}
+.support-title p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+.support-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+}
+.support-content {
+  width: 25%;
+  text-align: center;
+  padding: 18px;
+}
+.support-item i {
+  font-weight: 300;
+  font-size: 3rem;
+}
+.support-item h3 {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+.support-item p {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .support-content {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .support-content {
+      width: 50%;
+    }
+  }
